@@ -32,13 +32,13 @@
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
+              <a class="nav-link active" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#project">Project</a>
+              <a class="nav-link active" href="#project">Project</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
+              <a class="nav-link active" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -53,7 +53,7 @@
       <div class="container">
         <img src="img/foto-profil.jpg" class="rounded-circle img-thumbnail" alt="">
         <h1 class="fw-normal">Yoga Bagas Kurniawan</h1>
-        <p >Programing | Desaigner | Content Creator</p>
+        <p class="p-jumbotron"></p>
       </div>
 
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="white" fill-opacity="1" d="M0,128L20,122.7C40,117,80,107,120,117.3C160,128,200,160,240,181.3C280,203,320,213,360,202.7C400,192,440,160,480,144C520,128,560,128,600,160C640,192,680,256,720,245.3C760,235,800,149,840,138.7C880,128,920,192,960,202.7C1000,213,1040,171,1080,154.7C1120,139,1160,149,1200,165.3C1240,181,1280,203,1320,218.7C1360,235,1400,245,1420,250.7L1440,256L1440,320L1420,320C1400,320,1360,320,1320,320C1280,320,1240,320,1200,320C1160,320,1120,320,1080,320C1040,320,1000,320,960,320C920,320,880,320,840,320C800,320,760,320,720,320C680,320,640,320,600,320C560,320,520,320,480,320C440,320,400,320,360,320C320,320,280,320,240,320C200,320,160,320,120,320C80,320,40,320,20,320L0,320Z"></path></svg>
@@ -72,10 +72,10 @@
         </div>
 
         <div class="row justify-content-center">
-          <div class="col-md-4 text-center" data-aos="fade-up-right">
+          <div class="col-md-4 text-center" data-aos="fade-down-right" data-aos-delay="100"  data-aos-duration="1000">
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis consequuntur quidem dolores, aut maiores sed, quia porro nobis ipsam perferendis asperiores nesciunt accusantium esse reiciendis.</p>
           </div>
-          <div class="col-md-4 text-center" data-aos="fade-down-left">
+          <div class="col-md-4 text-center" data-aos="fade-up-left"  data-aos-duration="1000">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure eius facilis id. Natus autem adipisci repellat velit aliquid soluta minima?</p>
           </div>
         </div>
@@ -98,42 +98,44 @@
 
         <!-- REM PADA CARD BISA DIHAPUS UNTUK MEMENUHI LAYAR ATAU CONTAINERNYA -->
 
-        <div class="row justify-content-evenly">
+        <!-- <div class="row justify-content-evenly"> -->
+        <div class="row justify-content-center">
           <div class="col-lg-4">
-            <div class="card img-fluid" data-aos="flip-left">
-              <img src="img/g1.jpg" class="card-img-top" alt="...">
+            <div class="card card-project" data-aos="flip-left"  data-aos-duration="1200" data-flip-id="img" >
+              <img src="img/g1.jpg" class="card-img-top img-fluid" alt="...">
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="card" data-aos="flip-left" data-aos-duration="1200" data-aos-delay="200">
+              <img src="img/g2.jpg" class="card-img-top img-fluid"  alt="...">
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
             </div>
           </div>
           <div class="col-lg-4">
-            <div class="card img-fluid" data-aos="flip-left">
-              <img src="img/g2.jpg" class="card-img-top" alt="...">
+            <div class="card" data-aos="flip-left" data-aos-duration="1200" data-aos-delay="400">
+              <img src="img/g3.jpg" class="card-img-top img-fluid" alt="...">
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
             </div>
           </div>
           <div class="col-lg-4">
-            <div class="card img-fluid" data-aos="flip-left">
-              <img src="img/g3.jpg" class="card-img-top" alt="...">
+            <div class="card" data-aos="flip-left" data-aos-duration="1200" >
+              <img src="img/g4.jpg" class="card-img-top img-fluid" alt="...">
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
             </div>
           </div>
           <div class="col-lg-4">
-            <div class="card img-fluid" data-aos="flip-left">
-              <img src="img/g4.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="card img-fluid" data-aos="flip-left">
-              <img src="img/g5.jpg" class="card-img-top" alt="...">
+            <div class="card" data-aos="flip-left" data-aos-duration="1200" data-aos-delay="200">
+              <img src="img/g5.jpg" class="card-img-top img-fluid" alt="...">
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
@@ -145,6 +147,74 @@
     </section>
 
     <!-- akhir project -->
+
+    <!-- Galery img -->
+
+    <section class="galery" id="galery">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center">
+            <h3>Galery Me</h3>
+          </div>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-md-3">
+            <a href="">
+              <img src="img/Gallery/g1.jpg" alt="" class="img-fluid galery-img">
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="">
+              <img src="img/Gallery/g2.jpg" alt="" class="img-fluid galery-img" >
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="">
+              <img src="img/Gallery/g3.jpg" alt="" class="img-fluid galery-img">
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="">
+              <img src="img/Gallery/g4.jpg" alt="" class="img-fluid galery-img">
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="">
+              <img src="img/Gallery/g5.jpg" alt="" class="img-fluid galery-img">
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="">
+              <img src="img/Gallery/g6.png" alt="" class="img-fluid galery-img">
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="">
+              <img src="img/Gallery/g7.jpg" alt="" class="img-fluid galery-img">
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="">
+              <img src="img/Gallery/g8.jpg" alt=""  class="img-fluid galery-img">
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="">
+              <img src="img/Gallery/g9.jpg" alt="" class="img-fluid galery-img">
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="">
+              <img src="img/Gallery/g10.jpg" alt="" class="img-fluid galery-img">
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#e2edff" fill-opacity="1" d="M0,320L34.3,277.3C68.6,235,137,149,206,138.7C274.3,128,343,192,411,192C480,192,549,128,617,138.7C685.7,149,754,235,823,261.3C891.4,288,960,256,1029,218.7C1097.1,181,1166,139,1234,122.7C1302.9,107,1371,117,1406,122.7L1440,128L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path></svg>
+
+    <!-- akhir galery img -->
 
     <!-- awal contact -->
 
@@ -159,14 +229,14 @@
         <div class="row justify-content-center">
           <div class="col-md-6">
             <!-- untuk pemberitahuan -->
-            <div class="alert alert-warning alert-dismissible fade show d-none" role="alert">
-              <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+            <div class="alert alert-dark alert-dismissible fade show d-none" role="alert">
+              <strong>Terima Kasih!</strong> Pesan Anda sudah terkirim
               <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
             </div>
 
             <form name="namaFormContact">
               <div  class="mb-3">
-                <label for="nama" class="font-weight-bold">Nama</label>
+                <label for="nama" class="font-weight-bold">Name</label>
                 <input type="text" class="form-control" id="nama" name="nama">
               </div>
               <div class="mb-3">
@@ -177,7 +247,7 @@
                 <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="pesan"></textarea>
               </div>
-              <button type="submit" class="btn btn-primary btnKirim">KIRIM</button>
+              <button type="submit" class="btn btn-primary btnKirim">SEND</button>
 
               <button class="btn btn-primary btnLoading d-none" type="button" disabled>
                 <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
@@ -187,46 +257,91 @@
           </div>
         </div>
       </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0d6efd" fill-opacity="1" d="M0,128L60,160C120,192,240,256,360,277.3C480,299,600,277,720,250.7C840,224,960,192,1080,186.7C1200,181,1320,203,1380,213.3L1440,224L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg>
     </section>
 
     <!-- akhir contact -->
 
     <!-- footer -->
 
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0d6efd" fill-opacity="1" d="M0,128L48,112C96,96,192,64,288,90.7C384,117,480,203,576,208C672,213,768,139,864,112C960,85,1056,107,1152,128C1248,149,1344,171,1392,181.3L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
     <footer class="bg-primary">
       <p class="text-center">Created with <i class="bi bi-balloon-heart-fill text-danger"></i> by <span> Yoga Bagas Kurniawan</span></p>
     </footer>
 
     <!-- akhir footer -->
 
+
+
+
+
+
+
     <!-- script javacript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 
     <!-- script aos -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
     <script>
-      AOS.init();
+      // bagian galery img
+      const imgGalery = document.querySelectorAll('.galery-img')
+
+      imgGalery.forEach((img, i) => {
+        img.dataset.aos = 'fade-down';
+        img.dataset.aosDelay = i * 100;
+        img.dataset.aosDuration =  1000;
+      });
+
+      // bagian semua
+      AOS.init(
+      //   {
+      //   once: true,
+      // }
+      );
     </script>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     <!-- akhir script aos -->
+
+    <!-- awal script Gsap -->
+
+    <!-- intalation Gsap -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js"></script>
+    <script>
+      
+      gsap.from('.img-thumbnail', { opacity: 0, y: "-100%", duration: 2, ease: "back",delay: .5});
+      gsap.from('.navbar', { opacity: 0, y: "-100%", duration: 1.5, ease: "bounce" });
+      gsap.from('.fw-normal',{ opacity: 0, y: 100, duration: 1.5, ease: "elastic", delay: 1});
+
+    </script>
+
+    <!-- intalatiom text-plugin -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/TextPlugin.min.js"></script>
+    <!-- register text-plugin -->
+    <script>gsap.registerPlugin(TextPlugin)</script>
+    <!-- code yg mau di kasih text-plugin -->
+    <script>
+      gsap.to(".p-jumbotron", {duration: 4, text: "Programing | Desaigner | Content Creator", delay:1.5})
+    </script>
+
+    
+
+    <!-- akhir script Gsap -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     <!-- script form contact -->
     <script>

@@ -10,7 +10,7 @@
 }
 
 .nav-item{
-    margin-right: 20px;
+    margin-left: 20px;
 }
 
 /* jumbotron */
@@ -40,7 +40,7 @@
     min-height: 500px;
 }
 
-.about h3, .project h3, .contact h3{
+.about h3, .project h3, .contact h3, .galery h3{
     margin-bottom: 40px;
 }
 
@@ -52,6 +52,22 @@
 
 .project .card{
     margin-bottom: 25px;
+}
+
+/* galery-img */
+
+.galery-img{
+    width: 100%;
+}
+
+.galery .row>*{
+    padding: 0%;
+}
+
+/* contact */
+
+.contact{
+    background-color: #e2edff;
 }
 
 /* footer */
